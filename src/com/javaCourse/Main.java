@@ -4,11 +4,11 @@ public class Main {
 
 
     public static void main(String[] args) {
-        User user1 = new User(1l, "Bob", "bob@gmail.com");
+        User user1 = new User(1L, "Bob", "bob@gmail.com");
         user1.printInfo();
         user1.jump();
 
-        User user2 = new User(2l, "John", "joghn@gmail.com");
+        User user2 = new User(2L, "John", "joghn@gmail.com");
         user2.printInfo();
         user2.jump();
         Document document = new Document("Doc #1", "Java");
